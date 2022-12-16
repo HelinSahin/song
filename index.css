@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(4, 160, 82, 0.521);
+   
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    opacity: 0.9;
+}
+
+
+/*  
+.menter{
+   
+   display: flex;
+   margin: auto;
+    align-items: center;
+   border: 5px;
+   border-color: darkblue;
+}  */
+
+
+.center {
+   text-align: center; 
+   text-shadow: 1em;
+    font-size: 1.2em;
+ }
+
+.center2{
+    text-align:center;
+    margin:auto;
+    width: 100px;   
+   /* UL tüm satırı kapladığı için disc işareti satırın başladığı yerden başlıyordu . text-align verdiğimiz için yazılar yine ortada kalıyordu. UL'ye sabit bir genişlik verip başlama yerini ayarlamış olduk. İstersen daha da yakınılaştırmak için width değerini azaltabilirsin. sayfanın yüzde yirmisi verdik */
+}
+
+.centerimg {
+    margin:5px auto 5px auto;
+    margin-left: 600px;
+    width: 20%;
+    padding: 10px;
+    border: 0.1em;
+    border-color: blue;
+   
+  }
